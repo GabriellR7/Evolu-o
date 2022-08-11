@@ -1,0 +1,96 @@
+
+
+
+body{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+
+
+.categoria{
+    font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+    margin-left: 60px;
+
+}
+.box1 h1{
+    margin-left: 180px;
+    color: black;
+    font-size: 25px;
+    font-family: ;
+}
+.box2 input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    width: 320px;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 35px;
+    border: 1.5px solid  black  ;
+}
+.box2{ 
+
+}
+.box3 img{
+    height: 100vh;
+    width: 100%;
+}
+.box2 input:hover{
+    background-color: rgb(236, 236, 236);
+    transform: scale(1.0);
+}
+
+.categoria .redesocial .netflix{
+    background-color:black;
+}
+.categoria .redesocial .instagram{
+    background-color:blueviolet;
+}
+.categoria .redesocial .twitter{
+    background-color:aqua;
+}
+.categoria .redesocial{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+.categoria .check{
+    margin-left: 70px;
+    display: flex;
+    margin-top: 15px;
+}
+.categoria .redesocial button:hover{
+ transform: scale(1.2);
+}
+.categoria .seta{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.categoria .seta img{
+    background-color:crimson;
+    border: none;
+    border-radius: 15px;
+}
+.categoria .seta button{
+    border: none;
+    border-radius: 15px;
+    background-color: crimson;
+}
+.categoria .login{
+    margin-top: 50px;
+    display: ;
+}
+.categoria .login a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+}
+.categoria .login a:hover{
+    transform: scale(1.2);
+}
+
